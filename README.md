@@ -1,2 +1,2 @@
-# GD-Settings
-Manages global settings for GlobalDynamics
+# SARAH-Settings
+Manages global settings for SARAH
