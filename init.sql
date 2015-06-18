@@ -1,3 +1,5 @@
+USE `sarah`;
+
 CREATE TABLE IF NOT EXISTS `settings` (
 `SETTING_ID` int(9) NOT NULL,
   `key` text NOT NULL,
