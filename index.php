@@ -34,7 +34,7 @@
 
 		$tableView = new TableView ( array ('Key', 'Value', '') );
 
-		while (($settings_row = mysql_fetch_array( $settings_data ) ) != null) {
+		while (($settings_row = mysqli_fetch_array( $settings_data ) ) != null) {
 			$tableView->addRow ( array (
 				TableView::createCell ('key', $settings_row['key'] ),
 				TableView::createCell ('value', $settings_row['value'] ),
